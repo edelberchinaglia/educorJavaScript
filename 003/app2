@@ -5,6 +5,7 @@ document.write(n1++ +"<br>")
 document.write(n1++ +"<br>")
 document.write(n1++ +"<br>")
 document.write(--n1 +"<br>")
+
 //operadores relacionais
 document.write((n1>n2)+"<br>")
 document.write((n1<n2)+"<br>")
@@ -12,4 +13,11 @@ document.write((n1==n2)+"<br>")
 document.write((n1!=n2)+"<br>")
 document.write((n1>=n2)+"<br>")
 document.write((n1<=n2)+"<br>")
+
+//operadores lógicos
+//&& = e
+//|| = ou
+//!  = não
+
+
 
