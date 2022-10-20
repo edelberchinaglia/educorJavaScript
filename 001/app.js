@@ -1,2 +1,3 @@
-console.log("Olá Mundo console")
-document.write("Olá Mundo document")
+console.log("Olá mundo")
+
+document.write("Hora de enviar o código")

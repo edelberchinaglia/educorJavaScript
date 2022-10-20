@@ -1,2 +1,2 @@
-# educorJavaScript
- Códigos desenvolvidos durante o Educor em out/2022
+# educor-javascript
+ Códigos desenvolvidos durante o Educor Outubro/2022

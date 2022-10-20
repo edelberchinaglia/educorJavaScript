@@ -1,25 +1,29 @@
 /* operadores */
+
 let n1, n2
-n1=10
-n2=2
+
+n1 = 10
+n2 = 2
+
+document.write("N1 + N2 = " + (n1+n2) + "<br>") // adição
+document.write("N1 - N2 = " + (n1-n2) + "<br>") // subtração
+document.write("N1 / N2 = " + n1/n2 + "<br>") // divisão
+document.write("N1 * N2 = " + n1*n2 + "<br>") // multiplicação
+
 let nome, sobrenome
-nome="Edelber"
-sobrenome="Chinaglia"
-document.write("Número 1: "+n1+"<br>")
-document.write("Número 2: "+n2+"<br>")
-document.write("N1+N2="+(n1+n2)+"<br>")
-document.write("N1-N2="+(n1-n2)+"<br>")
-document.write("N1/N2="+(n1/n2)+"<br>")
-document.write("N1*N2="+(n1*n2)+"<br>")
-document.write("N1%N2=Resto da Divisão ou Módulo "+(n1%n2)+"<br>")  //módulo
-document.write(nome+" "+sobrenome+"<br")  //concatenação
-document.write("N1**N2="+(n1**n2)+"<br>")  //potênciação
-document.write(Math.sqrt(16))  //raiz quadrada
+nome = "João"
+sobrenome = " Paulo"
+document.write(nome + sobrenome + "<br>") // concatenação
+
+document.write('N1 % N2 = ' + n1%n2 + "<br>") // operador módulo (resto da divisão)
+
+document.write('N1 ** N2 = '+ n1**n2 + "<br>") // operador de potência
+
+document.write(Math.sqrt(16))
+
 function mensagem(){
-alert("olá mundo")
+    alert("Olá, seja bem vindo")
 }
-
-
 
 function somar(){
     let v1, v2
@@ -28,4 +32,3 @@ function somar(){
     v2 = parseFloat(document.getElementById("valor2").value)
     document.getElementById("resultado").value = v1 + v2
 }
-

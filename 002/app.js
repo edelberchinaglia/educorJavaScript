@@ -1,58 +1,74 @@
 console.log("Encontro 2")
-// Sintaxe javascript, variáveis e tipos de dados - ctrl; faz comentário de uma linha /* e */ faz comentários de trechos
-//variáveis
-nome="Edelber"
+
+/*
+Sintaxe javascript, variáveis e tipos de dados
+*/
+
+// variáveis
+
+nome = "Guto"
 console.log(nome)
-var nome="Gigica"
+var nome = "José"
 console.log(nome)
-var nome="Chico"           //declara variavel com escopo global
+var nome = "Silvia"
 console.log(nome)
-let sobrenome="chinaglia"  //declara variavel, mas não deixa declarar novamente mais pra baixo e tem escopo local
-console.log(sobrenome) 
-if (10>3){
-    console.log("10 é maior que 3")
+let sobrenome = "Xavier"
+console.log(sobrenome)
+
+if(10>3){
+    console.log("10 maior que 3")
     let idade=21
     console.log(idade)
 }
-let mídia="tv"
-console.log(mídia)
 
-//Tipos de dados - js não precisa de tipagem
-let idade = 12, apelido="João"
-idade=20
-apelido="Chico"
-let concorda = true
-console.log(typeof idade)               //descobrindo o tipo de variavel / ver no navegador com f12 em console
+//console.log(idade)
+
+let midia = "tv"
+console.log(midia)
+
+//Tipos de dados
+let idade
+let apelido
+
+idade = 15
+apelido = "Gui"
+console.log(typeof idade )
 console.log(typeof apelido)
+
+let concorda = true
 console.log(typeof concorda)
-let carros=['gol','corsa','uno']
-console.log(carros)
+
+let carros = ['gol','corsa', 'uno']
 console.log(typeof carros)
-let pessoa={'nome':'Edelber', 'idade':'50'}
-console.log(pessoa)
+
+let pessoa = {'nome':'guto', 'idade':'36'}
 console.log(typeof pessoa)
-document.getElementById("titulo").style.backgroundColor="lightgreen"
+
+
+document.getElementById("titulo").style.backgroundColor = "lightgreen"
 console.log(document.getElementById("titulo"))
-document.getElementById("titulo").innerText="melhor sabor"
-let titulopagina
-titulopagina=document.getElementById("titulo").innerHTML
-console.log(titulopagina)
+document.getElementById("titulo").innerText = "Melhor Sabor"
+let tituloDaPagina
+tituloDaPagina = document.getElementById("titulo").innerText
+console.log(tituloDaPagina)
 
 let elementoSubtitulo
-elementoSubtitulo=document.getElementById("subtitulo")
+elementoSubtitulo = document.getElementById("subtitulo")
 console.log(elementoSubtitulo)
-elementoSubtitulo.style.backgroundColor="red"
-elementoSubtitulo.innerText="<em>seu restaurante preferido</em>"  //trabalha apenas com texto puro
-elementoSubtitulo.innerHTML="<em>seu restaurante preferido</em>"  //aceita formatações ou seja, renderiza
-let carnes = ["🥩","🍗"]
-console.table(carnes)
-console.dir(carnes)
-console.log(carnes)
+elementoSubtitulo.style.backgroundColor = "lightblue"
+elementoSubtitulo.innerHTML = "<em>Seu restaurante certo</em>"
+
+
+let frutas = ["🍉","🍋","🍒"]
+console.log(frutas)
+console.dir(frutas)
+console.table(frutas)
+
 document.write("<h3>Cardápio</h3>")
-document.write(carnes)
-//alert("bom dia")
-let nomeCompleto=prompt("qual seu nome?","Digite aqui")
-alert("olá"+nomeCompleto+"espero que goste")
-document.write("<br>nome:"+nomeCompleto)
+document.write(frutas)
 
+alert("Bom dia, seja bem vindo ao meu site")
+let nomeCompleto = prompt("Qual seu nome?","Digite aqui")
 
+alert("Olá " + nomeCompleto + " espero que goste")
+document.write("<br>nome: " + nomeCompleto)
