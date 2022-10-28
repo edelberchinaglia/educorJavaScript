@@ -12,7 +12,15 @@
 	<p id="teste2">Vetor com unshift: </p>
 
 	<script type="text/javascript">
-		
+		//criando o vetor
+		var vetor = [2,3,4,5]
+		//mostrando o vetor no ID chamado teste1
+		document.getElementById("teste1").innerHTML += vetor
+
+		// adicionando elemento no início do vetor
+		vetor.unshift(0,1)
+		// mostrando novamente o vetor, agora com os elementos adicionados no início
+		document.getElementById("teste2").innerHTML += vetor
 	</script>
 
 </body>

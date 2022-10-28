@@ -10,7 +10,18 @@
 	<p id="teste"></p>
 
 	<script type="text/javascript">
-		
+		//criando as variáveis para o código
+		var cores, resultado, fim, cont
+		cores = ['Verde','Amarelo','Azul','Branco']
+		fim = cores.length
+
+		resultado = '<ul>'
+		for(cont=0; cont<fim; cont++){
+			resultado += '<li>' + cores[cont] + '</li>'
+		}
+		resultado += '</ul>'
+
+		document.getElementById('teste').innerHTML = resultado
 	</script>
 
 </body>

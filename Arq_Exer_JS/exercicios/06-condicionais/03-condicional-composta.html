@@ -10,7 +10,21 @@
 	<p id="teste"></p>
 
 	<script type="text/javascript">
-		
+		//criação da variavel
+		media = 6
+
+		//criando a condicional composta
+		if(media >= 7){
+			resposta = 'Aprovado(a)'
+		}else if(media >= 6){
+			resposta = 'Recuperação'
+		}else{
+			resposta = 'Reprovado(a)'
+		}
+
+		//mostrando o resultado
+		document.getElementById('teste').innerHTML = resposta
+
 	</script>
 
 </body>
